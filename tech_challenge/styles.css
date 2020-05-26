@@ -9,6 +9,14 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
 
+:root{
+    --darkBlue: #4A455C;
+    --red: #D64C31;
+    --whiteRed: #FFF0E7;
+    --lightBlue: #E8F1EE;
+    --white: #ffffff
+}
+
 img {
     width: 100%;
     height: auto;
@@ -21,8 +29,73 @@ img {
 
 .nav-links {
     font-size: 24px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-style: regular;
+
 }
 
-.logo{
+.nav-links ul {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+}
+
+header a{
+    color: #4A455C;
+}
+
+header .container {
+    display: flex;
+}
+
+header nav {
+    margin-left: 50px;
+}
+
+.heading-tech-challenge {
+    font-size: 84px;
+    font-weight: 500;
+    font-family: 'Comorant Garamond';
+}
+
+.heading-welcome {
+    font-size: 75px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.heading {
+    font-size: 75px;
+    font-weight: 500;
+    font-family: 'Comorant Garamond';
+}
+
+.body-text {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.dates {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Montserrat';
+}
+
+.buttons {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+
+.logo {
     width: 280px;
-  }
+}
