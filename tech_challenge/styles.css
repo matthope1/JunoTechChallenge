@@ -150,6 +150,7 @@ header nav {
 }
 
 #tech-challenge .container {
+
 }
 
 
@@ -171,6 +172,7 @@ header nav {
     margin-top: 7rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-bottom: 4rem;
 }
 
 #welcome-to-juno .container {
@@ -188,14 +190,20 @@ header nav {
 }
 
 #welcome-to-juno span img {
-    
-
     position: absolute;
     right: 10vw;
     top: 10vh;
     height: auto;
     width: calc(10vw + 50px);
-    /* border: solid; */
+}
 
+/* blog posts */
+
+#blog-posts {
+
+}
+
+#blog-posts .dates {
+    color: 
 }
 
