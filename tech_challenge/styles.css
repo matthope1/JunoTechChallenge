@@ -30,7 +30,7 @@ img {
 .nav-links {
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: regular;
 }
 
@@ -47,7 +47,8 @@ img {
 }
 
 header {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 header a{
@@ -65,40 +66,40 @@ header nav {
 }
 
 .heading-tech-challenge {
-    font-size: 64px;
-    font-weight: lighter;
-    font-family: 'Comorant Garamond';
+    font-size: 84px;
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
     margin: 0;
 }
 
 .heading-welcome {
     font-size: 75px;
     font-weight: 500;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .heading {
     font-size: 75px;
     font-weight: 500;
-    font-family: 'Comorant Garamond';
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .body-text {
     font-size: 22px;
     font-weight: 400;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dates {
     font-size: 20px;
     font-weight: 500;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .buttons {
     font-size: 22px;
     font-weight: 400;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -116,14 +117,19 @@ header nav {
 .tech-challenge-box {
     background-color: #D64C31;
     color: white;
-    width: 50%;
+    width: 47%;
     position: absolute;
-    top: -250px;
+    top: -400px;
     border: none;
-    max-height: 40vh;
-    min-height: 20vh;
+    max-height: 450px;
+    min-height: 450px;
+}
+
+.tech-challenge-box p {
+    line-height: 50px;
+    font-size: 30px;
 }
 
 .tech-challenge-box div {
-    padding: 40px 40px 40px 40px;
+    padding: 40px 70px 40px 70px; 
 }
