@@ -191,8 +191,8 @@ header nav {
     
 
     position: absolute;
-    right: 80px;
-    top: 100px;
+    right: 10vw;
+    top: 10vh;
     height: auto;
     width: calc(10vw + 50px);
     /* border: solid; */
