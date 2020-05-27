@@ -128,9 +128,6 @@ header nav {
     color: #ffffff;
 }
 
-
-
-
 .logo {
     width: 280px;
 }
@@ -140,8 +137,6 @@ header nav {
 #tech-challenge div {
     position: relative;
 }
-
-
 
 .tech-challenge-box {
     background-color: #D64C31;
@@ -172,14 +167,22 @@ header nav {
 
 #welcome-to-juno {
     background-color: #E8F1EE;
-
     margin-left: 5%;
     margin-top: 7rem;
- 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-#welcome-to-juno .container{
+#welcome-to-juno .container {
     width: 95%;
     margin-left: 5%;
+}
+
+#welcome-to-juno img {
+    padding-right: 5%;
+}
+
+#welcome-to-juno h2 {
+    font-family: 'Montserrat', sans-serif;
 }
 
