@@ -176,13 +176,26 @@ header nav {
 #welcome-to-juno .container {
     width: 95%;
     margin-left: 5%;
+    position: relative;
 }
 
-#welcome-to-juno img {
-    padding-right: 5%;
+#welcome-to-juno .welcome-img {
+    padding-right: 17%;
 }
 
 #welcome-to-juno h2 {
     font-family: 'Montserrat', sans-serif;
+}
+
+#welcome-to-juno span img {
+    
+
+    position: absolute;
+    right: 80px;
+    top: 100px;
+    height: auto;
+    width: calc(10vw + 50px);
+    /* border: solid; */
+
 }
 
