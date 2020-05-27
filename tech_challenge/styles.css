@@ -32,7 +32,6 @@ img {
     font-weight: bold;
     font-family: 'Montserrat';
     font-style: regular;
-
 }
 
 .nav-links ul {
@@ -47,12 +46,18 @@ img {
     text-decoration: none;
 }
 
+header {
+    margin-top: 20px;
+}
+
 header a{
     color: #4A455C;
 }
 
 header .container {
     display: flex;
+    align-items: center;
+    /* border: solid; */
 }
 
 header nav {
@@ -60,9 +65,10 @@ header nav {
 }
 
 .heading-tech-challenge {
-    font-size: 84px;
-    font-weight: 500;
+    font-size: 64px;
+    font-weight: lighter;
     font-family: 'Comorant Garamond';
+    margin: 0;
 }
 
 .heading-welcome {
@@ -98,4 +104,26 @@ header nav {
 
 .logo {
     width: 280px;
+}
+
+#tech-challenge div {
+    /* border: solid; */
+    position: relative;
+}
+
+
+
+.tech-challenge-box {
+    background-color: #D64C31;
+    color: white;
+    width: 50%;
+    position: absolute;
+    top: -250px;
+    border: none;
+    max-height: 40vh;
+    min-height: 20vh;
+}
+
+.tech-challenge-box div {
+    padding: 40px 40px 40px 40px;
 }
