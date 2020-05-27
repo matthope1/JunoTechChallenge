@@ -106,6 +106,30 @@ header nav {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* color classes */
+
+.color-purple {
+    color: #4A455C;
+}
+
+.color-red {
+    color:  #D64C31;
+}
+
+.color-light-red {
+    color: #FFF0E7;
+}
+
+.color-light-blue {
+    color: #E8F1EE;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+
+
 
 .logo {
     width: 280px;
@@ -158,3 +182,4 @@ header nav {
     width: 95%;
     margin-left: 5%;
 }
+
