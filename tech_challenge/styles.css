@@ -46,6 +46,8 @@ img {
     text-decoration: none;
 }
 
+/* header */
+
 header {
     margin-top: 30px;
     margin-bottom: 50px;
@@ -58,12 +60,13 @@ header a{
 header .container {
     display: flex;
     align-items: center;
-    /* border: solid; */
 }
 
 header nav {
     margin-left: 50px;
 }
+
+/* classes */
 
 .heading-tech-challenge {
     font-size: 84px;
@@ -94,6 +97,7 @@ header nav {
     font-size: 20px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
 }
 
 .buttons {
@@ -107,8 +111,9 @@ header nav {
     width: 280px;
 }
 
+/* Tech challenge */
+
 #tech-challenge div {
-    /* border: solid; */
     position: relative;
 }
 
@@ -119,11 +124,15 @@ header nav {
     color: white;
     width: 47%;
     position: absolute;
-    top: -400px;
+    margin-top: -400px;
     border: none;
     max-height: 450px;
     min-height: 450px;
 }
+
+#tech-challenge .container {
+}
+
 
 .tech-challenge-box p {
     line-height: 50px;
@@ -132,4 +141,20 @@ header nav {
 
 .tech-challenge-box div {
     padding: 40px 70px 40px 70px; 
+}
+
+
+/* Welcome to juno */
+
+#welcome-to-juno {
+    background-color: #E8F1EE;
+
+    margin-left: 5%;
+    margin-top: 7rem;
+ 
+}
+
+#welcome-to-juno .container{
+    width: 95%;
+    margin-left: 5%;
 }
