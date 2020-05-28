@@ -241,6 +241,8 @@ header nav {
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
+
+    border: solid;
 }
 
 
@@ -249,6 +251,8 @@ header nav {
     margin: 0 auto;
     padding-top: 20px;
     padding-bottom: 20px;
+
+    height: calc(10vh + 300px);
     /* flex-grow: 1; */
 }
 
@@ -257,3 +261,35 @@ header nav {
     /* flex-grow: 1; */
 }
 
+
+/* footer  */
+
+footer {
+    color: white;
+    background-color: #D64C31;
+    padding-top: 30px;
+}
+
+footer .logo {
+    height: 50px;
+    width: 140px;
+}
+
+
+.footer-headings {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mailing-list {
+    background-color: #4A455C;
+}
+
+footer .nav-links a{
+    color: white;
+}
+
+footer .nav-links ul {
+    margin-right: -50px;
+}
