@@ -241,8 +241,6 @@ header nav {
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-
-    border: solid;
 }
 
 
@@ -268,6 +266,8 @@ footer {
     color: white;
     background-color: #D64C31;
     padding-top: 30px;
+    margin-top: 70px;
+    position: relative;
 }
 
 footer .logo {
@@ -291,6 +291,14 @@ footer .body-text {
 
 .mailing-list {
     background-color: #4A455C;
+    
+    position: absolute;
+    top: -50px;
+    right: 0;
+
+    display: inline-block;
+    width: 40%;
+    height: calc(100% + 50px);
 }
 
 footer .nav-links a{
@@ -302,6 +310,7 @@ footer .nav-links a{
 footer .nav-links ul {
     margin-right: 0;
     padding: 0;
+    margin-bottom: 30px;
 }
 
 footer .container {
@@ -313,12 +322,19 @@ footer .container {
 footer .copyright {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    margin: 0;
+    padding-bottom: 15px;
 }
 
 .mailing-list-container {
     margin-left: 5%;
-    padding-top: 5%;
+    padding-left: 10px;
+    padding-top: 50px;
+
+
 }
+
+
 
 .mailing-list button {
     display: block;
@@ -326,7 +342,35 @@ footer .copyright {
 }
 
 .mailing-list {
-    display: inline-block
+
 }
 
+.mailing-list .footer-headings {
+    margin-bottom: 10px;
+}
+
+.mailing-list input {
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+.mailing-list button {
+    padding: 10px 10px 10px 10px;
+    border: none;
+    background-color:#FFCEB0;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.mailing-list i {
+    font-size: 20px;
+    margin-right: 20px;
+
+}
+
+
+/* media queries */
 
