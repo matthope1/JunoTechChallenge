@@ -200,10 +200,60 @@ header nav {
 /* blog posts */
 
 #blog-posts {
+}
 
+#blog-posts .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #blog-posts .dates {
-    color: 
+    color: #4A455C;
+    margin: 0;
+}
+
+#blog-posts .heading {
+    color: #D64C31;
+    margin: 0;
+}
+
+#blog-posts .body-text {
+    color: #4A455C;
+    margin: 0;
+}
+
+/*
+.blog-box div {
+    margin: 0;
+    background-color: #FFF0E7;
+}
+*/
+
+
+.blog-box .background {
+    margin: 0;
+    background-color: #FFF0E7;
+}
+
+.blog-box {
+    width: calc(50% - 20px);
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inner {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* flex-grow: 1; */
+}
+
+
+.box-image {
+    /* flex-grow: 1; */
 }
 
