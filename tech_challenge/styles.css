@@ -149,10 +149,6 @@ header nav {
     min-height: 450px;
 }
 
-#tech-challenge .container {
-
-}
-
 
 .tech-challenge-box p {
     line-height: 50px;
@@ -223,14 +219,6 @@ header nav {
     margin: 0;
 }
 
-/*
-.blog-box div {
-    margin: 0;
-    background-color: #FFF0E7;
-}
-*/
-
-
 .blog-box .background {
     margin: 0;
     background-color: #FFF0E7;
@@ -251,11 +239,6 @@ header nav {
     padding-bottom: 20px;
 
     height: calc(10vh + 300px);
-    /* flex-grow: 1; */
-}
-
-
-.box-image {
     /* flex-grow: 1; */
 }
 
@@ -326,23 +309,17 @@ footer .copyright {
     padding-bottom: 15px;
 }
 
+/* footer mailing list */
+
 .mailing-list-container {
     margin-left: 5%;
     padding-left: 10px;
     padding-top: 50px;
-
-
 }
-
-
 
 .mailing-list button {
     display: block;
     margin-top: 10px;
-}
-
-.mailing-list {
-
 }
 
 .mailing-list .footer-headings {
@@ -368,9 +345,19 @@ footer .copyright {
 .mailing-list i {
     font-size: 20px;
     margin-right: 20px;
-
 }
 
 
 /* media queries */
 
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+}
