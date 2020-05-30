@@ -17,6 +17,11 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
     --white: #ffffff
 }
 
+body {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 img {
     width: 100%;
     height: auto;
@@ -66,14 +71,7 @@ header nav {
     margin-left: 50px;
 }
 
-.heading-tech-challenge {
-    font-size: calc(20px + 4vw);
-    /* font-size: min(max(3rem, 5vw), 84px); */
-    /* font-size: 84px; */
-    font-weight: 400;
-    font-family: 'Cormorant Garamond', serif;
-    margin: 0;
-}
+
 
 .heading-welcome {
     font-size: 75px;
@@ -140,30 +138,40 @@ header nav {
     position: relative;
 }
 
+.heading-tech-challenge {
+    font-size: 80px;
+    /* font-size: min(max(3rem, 5vw), 84px); */
+    /* font-size: 84px; */
+    font-weight: 400;
+    font-family: 'Cormorant Garamond', serif;
+    margin: 0;
+}
+
 .tech-challenge-box {
     background-color: #D64C31;
     color: white;
-    width: 47%;
+    width: 49%;
     position: absolute;
-    margin-top: -400px;
+    margin-top: -350px;
     border: none;
-    max-height: 450px;
-    min-height: 450px;
+    min-height: 400px;
+    max-height: 400px;
+
 }
 
 
 .tech-challenge-box p {
     /* line-height: 50px; */
     
-    /* font-size: 30px; */
-    font-size: calc(7px + 1.5vw);
-    line-height: calc(2.5vw)
+    font-size: 22px;
+    /* font-size: calc(7px + 1.5vw); */
+    line-height: 50px;
     /* font-size: 1.5vw; */
     
 }
 
 .tech-challenge-box div {
-    padding: 40px 70px 40px 70px; 
+    padding: 40px 70px 0 70px; 
 }
 
 
