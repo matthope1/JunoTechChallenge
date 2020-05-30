@@ -55,7 +55,7 @@ img {
 
 header {
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 header a{
@@ -73,11 +73,7 @@ header nav {
 
 
 
-.heading-welcome {
-    font-size: 75px;
-    font-weight: 500;
-    font-family: 'Montserrat', sans-serif;
-}
+
 
 /* classes */
 
@@ -129,7 +125,7 @@ header nav {
 }
 
 .logo {
-    width: 280px;
+    width: 380px;
 }
 
 /* Tech challenge */
@@ -171,7 +167,7 @@ header nav {
 }
 
 .tech-challenge-box div {
-    padding: 40px 70px 0 70px; 
+    padding: 40px 50px 0 50px; 
 }
 
 
@@ -196,13 +192,16 @@ header nav {
     padding-right: 17%;
 }
 
-#welcome-to-juno h2 {
+.heading-welcome {
+    font-size: 75px;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
 
+
 #welcome-to-juno span img {
     position: absolute;
-    right: 10vw;
+    right: 8vw;
     top: 10vh;
     height: auto;
     width: calc(10vw + 50px);
@@ -233,7 +232,7 @@ header nav {
     color: #4A455C;
     margin: 0;
     font-weight: 500;
-    line-height: 50px;
+    line-height: 45px;
 }
 
 .blog-box .background {
@@ -250,7 +249,7 @@ header nav {
 
 
 .inner {
-    width: 80%;
+    width: 87%;
     margin: 0 auto;
     padding-top: 40px;
     /* padding-bottom: 20px; */
@@ -260,8 +259,8 @@ header nav {
 }
 
 .blog-box .heading {
-    padding: 40px 0 40px 0;
-    line-height: 60px;
+    padding: 30px 0 30px 0;
+    line-height: 50px;
 }
 
 
@@ -338,9 +337,11 @@ footer .copyright {
 }
 
 .mailing-list-container {
-    margin-left: 5%;
+    margin-left: 10%;
     padding-left: 10px;
+    padding-right: 20px;
     padding-top: 50px;
+
 }
 
 .mailing-list button {
@@ -357,6 +358,7 @@ footer .copyright {
     border-radius: 3px;
     border: none;
     font-family: 'Montserrat', sans-serif;
+    width: 100%;
 } 
 
 .mailing-list button {
@@ -367,9 +369,13 @@ footer .copyright {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
+.mailing-list .body-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
 .mailing-list i {
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 20px;
 }
 
