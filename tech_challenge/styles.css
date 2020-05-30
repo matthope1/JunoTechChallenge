@@ -66,10 +66,10 @@ header nav {
     margin-left: 50px;
 }
 
-/* classes */
-
 .heading-tech-challenge {
-    font-size: 84px;
+    font-size: calc(20px + 4vw);
+    /* font-size: min(max(3rem, 5vw), 84px); */
+    /* font-size: 84px; */
     font-weight: 400;
     font-family: 'Cormorant Garamond', serif;
     margin: 0;
@@ -80,6 +80,8 @@ header nav {
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* classes */
 
 .heading {
     font-size: 75px;
@@ -151,8 +153,13 @@ header nav {
 
 
 .tech-challenge-box p {
-    line-height: 50px;
-    font-size: 30px;
+    /* line-height: 50px; */
+    
+    /* font-size: 30px; */
+    font-size: calc(7px + 1.5vw);
+    line-height: calc(2.5vw)
+    /* font-size: 1.5vw; */
+    
 }
 
 .tech-challenge-box div {
@@ -217,6 +224,8 @@ header nav {
 #blog-posts .body-text {
     color: #4A455C;
     margin: 0;
+    font-weight: 500;
+    line-height: 50px;
 }
 
 .blog-box .background {
@@ -235,18 +244,25 @@ header nav {
 .inner {
     width: 80%;
     margin: 0 auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    /* padding-bottom: 20px; */
 
     height: calc(10vh + 300px);
     /* flex-grow: 1; */
 }
 
+.blog-box .heading {
+    padding: 40px 0 40px 0;
+    line-height: 60px;
+}
+
+
+
 
 /* footer  */
 
 footer {
-    color: white;
+    /* color: white; */
     background-color: #D64C31;
     padding-top: 30px;
     margin-top: 70px;
@@ -272,17 +288,7 @@ footer .body-text {
     line-height: 40px;
 }
 
-.mailing-list {
-    background-color: #4A455C;
-    
-    position: absolute;
-    top: -50px;
-    right: 0;
 
-    display: inline-block;
-    width: 40%;
-    height: calc(100% + 50px);
-}
 
 footer .nav-links a{
     color: white;
@@ -310,6 +316,18 @@ footer .copyright {
 }
 
 /* footer mailing list */
+.mailing-list {
+    background-color: #4A455C;
+    
+    position: absolute;
+    top: -50px;
+    right: 5%;
+
+    display: inline-block;
+    width: 30%;
+    height: calc(100% + 50px);
+    padding-right: 20px;
+}
 
 .mailing-list-container {
     margin-left: 5%;
@@ -349,15 +367,22 @@ footer .copyright {
 
 
 /* media queries */
+/* Desktops */
+@media (max-width: 1200px) {
+
+}
 
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
+
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
+
 }
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
+
 }
