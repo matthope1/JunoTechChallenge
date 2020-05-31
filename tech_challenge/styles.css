@@ -71,10 +71,6 @@ header nav {
     margin-left: 50px;
 }
 
-
-
-
-
 /* classes */
 
 .heading {
@@ -152,24 +148,19 @@ header nav {
     border: none;
     min-height: 400px;
     max-height: 400px;
-
 }
-
 
 .tech-challenge-box p {
     /* line-height: 50px; */
-    
     font-size: 22px;
     /* font-size: calc(7px + 1.5vw); */
     line-height: 50px;
     /* font-size: 1.5vw; */
-    
 }
 
 .tech-challenge-box div {
     padding: 40px 50px 0 50px; 
 }
-
 
 /* Welcome to juno */
 
@@ -197,7 +188,6 @@ header nav {
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
 }
-
 
 #welcome-to-juno span img {
     position: absolute;
@@ -263,9 +253,6 @@ header nav {
     line-height: 50px;
 }
 
-
-
-
 /* footer  */
 
 footer {
@@ -281,7 +268,6 @@ footer .logo {
     width: 140px;
 }
 
-
 .footer-headings {
     font-size: 30px;
     font-weight: 500;
@@ -294,8 +280,6 @@ footer .body-text {
     margin: 0;
     line-height: 40px;
 }
-
-
 
 footer .nav-links a{
     color: white;
@@ -325,11 +309,9 @@ footer .copyright {
 /* footer mailing list */
 .mailing-list {
     background-color: #4A455C;
-    
     position: absolute;
     top: -50px;
     right: 5%;
-
     display: inline-block;
     width: 30%;
     height: calc(100% + 50px);
@@ -341,7 +323,6 @@ footer .copyright {
     padding-left: 10px;
     padding-right: 20px;
     padding-top: 50px;
-
 }
 
 .mailing-list button {
@@ -379,15 +360,56 @@ footer .copyright {
     margin-right: 20px;
 }
 
-
 /* media queries */
 /* Desktops */
+/*1200*/
+@media (max-width: 1330px) {
+    .heading-tech-challenge {
+        font-size: 70px;
+    }
+
+    .heading {
+        font-size: 60px;
+    }
+
+    .footer-headings {
+        font-size: 23px;
+    }
+}
+
 @media (max-width: 1200px) {
+
+    .heading-tech-challenge{
+        font-size: 50px;
+    }
+
+    .tech-challenge-box .body-text{
+        line-height: 40px;
+        font-size: 20px;
+    }
+    #blog-posts .body-text {
+        line-height: 35px;
+    }
+
+    #welcome-to-juno span img {
+        right: 10vw;
+        top: 13vh;
+
+    }
+
+    #tech-challenge .body-text {
+       
+    }
+
 
 }
 
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
+
+    .container{
+        width: 100%;
+    }
 
 }
 
