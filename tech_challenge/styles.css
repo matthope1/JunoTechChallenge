@@ -143,7 +143,7 @@ header nav {
     background-color: #D64C31;
     color: white;
     width: 49%;
-    position: absolute;
+    /* position: absolute; */
     margin-top: -350px;
     border: none;
     min-height: 400px;
@@ -197,10 +197,14 @@ header nav {
     width: calc(10vw + 50px);
 }
 
+#welcome-to-juno h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* blog posts */
 
-#blog-posts {
-}
+/* #blog-posts {
+} */
 
 #blog-posts .container{
     display: flex;
@@ -394,31 +398,171 @@ footer .copyright {
     #welcome-to-juno span img {
         right: 10vw;
         top: 13vh;
-
     }
 
     #tech-challenge .body-text {
-       
+       line-height: 40px; 
+       /* not working */
     }
 
+    #blog-posts .container {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* border: solid; */
+    }
+
+    .blog-box {
+        width: 600px;
+    }
 
 }
 
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
 
+    header {
+        margin-bottom: 0;
+    }
     .container{
         width: 100%;
     }
+    header .container {
+        flex-direction: column;
 
+    }
+
+    header ul {
+        padding: 0;
+    }
+    .nav-links {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .heading-welcome {
+        font-size: 60px;
+    }
+
+    #welcome-to-juno span img {
+        top: 70px;
+    }
+
+
+}
+
+@media (max-width: 820px) {
+    .tech-challenge-box {
+        width: 400px;
+    }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
 
+    .tech-challenge-box {
+        /* background-color: #D64C31;
+        color: white;
+        width: 49%; */
+        /* position: static; */
+        /* margin-top: -350px; */
+
+        /* margin-top: 0; */
+        border: none;
+        min-height: 300px;
+        max-height: 300px;
+
+        width: 500px;
+        max-width: 100%;
+        margin: 0 auto;
+        
+    }
+    .tech-challenge-box div {
+        padding: 10px 10px 10px 10px;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        
+    }
+
+    .tech-challenge-box .body-text {
+        line-height: 3vw;
+
+    }
+
+    #welcome-to-juno {
+        margin: 0;
+    }
+
+    .heading-welcome {
+        font-size: 50px;
+    }
+
+    .blog-box {
+        max-width: 100%;
+    }
+
 }
 
 /* Landscape phones and down */
+
+
 @media (max-width: 480px) {
+
+    /* body * {
+        width: 100%;
+        height: auto;
+        font-size: 5vw;
+    }  */
+
+    body {
+        width: 100%;
+    }
+    
+    .heading-tech-challenge {
+        font-size: 12vw;
+    }
+
+    #tech-challenge .body-text {
+        font-size: 5vw;
+        line-height: 30px;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    header .nav-links {
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    header .nav-links a {
+        font-size: 5vw;
+    }
+
+    .heading-welcome {
+        font-size: 10vw;
+    }
+
+
+    #welcome-to-juno .welcome-img {
+        padding-right: 5%;
+    }
+
+    #welcome-to-juno .dates {
+        font-size: 5vw;
+    }
+
+    #welcome-to-juno span img {
+        position: static;
+    }
+
+    #welcome-to-juno h2 {
+        font-size: 6vw;
+    }
 
 }
