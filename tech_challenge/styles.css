@@ -347,10 +347,25 @@ footer .copyright {
 .mailing-list button {
     display: block;
     margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    border: none;
+    background-color:#FFCEB0;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: 0.3s;
+    transition-property: background-color;
+
+}
+
+.mailing-list button:hover {
+
+    background-color:rgb(250, 174, 126);
 }
 
 .mailing-list .footer-headings {
     margin-bottom: 10px;
+    
 }
 
 .mailing-list input {
@@ -361,14 +376,7 @@ footer .copyright {
     width: 100%;
 } 
 
-.mailing-list button {
-    padding: 10px 10px 10px 10px;
-    border: none;
-    background-color:#FFCEB0;
-    border-radius: 3px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-}
+
 .mailing-list .body-text {
     font-size: 18px;
     margin-bottom: 10px;
