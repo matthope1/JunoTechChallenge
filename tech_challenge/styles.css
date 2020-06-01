@@ -34,7 +34,7 @@ img {
 
 .nav-links {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     font-style: regular;
 }
@@ -45,10 +45,21 @@ img {
 
 .nav-links li {
     list-style: none;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 .nav-links a {
     text-decoration: none;
+    padding: 10px 20px 10px 10px;
+}
+
+.hover-tran {
+    transition-property: background-color;
+    transition-timing-function: ease-in; 
+    transition-duration: 0.3s;
+}
+
+.nav-links .hover-tran:hover {
+    background-color: #EBF1F4;
 }
 
 /* header */
@@ -447,7 +458,7 @@ footer .copyright {
     }
     .nav-links {
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     .heading-welcome {
