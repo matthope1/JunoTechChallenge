@@ -421,6 +421,11 @@ footer .copyright {
         margin-top: 100px;
     }
 
+    .mailing-list .body-text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
 }
 
 /* Portrait tablet and small desktops */
@@ -453,6 +458,12 @@ footer .copyright {
         top: 70px;
     }
 
+    
+    .mailing-list .body-text {
+        margin-bottom: 0;
+    }
+
+
 
 }
 
@@ -460,6 +471,37 @@ footer .copyright {
     .tech-challenge-box {
         width: 400px;
     }
+
+    .mailing-list {
+        /* background-color: #4A455C; */
+        position: static;
+        /* top: -50px; */
+        /* right: 5%; */
+        display: block;
+        width: 100%;
+        height: auto;
+        padding-right: 0;
+    }
+
+    .mailing-list-container {
+        margin: 0;
+        padding: 30px 30px 30px 30px;
+    }
+    .mailing-list .body-text {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    footer .container {
+        max-width: 95%;
+        margin: 0;
+        margin-left: 5%;
+        
+    }
+    
 }
 
 /* Landscape phone to portrait tablet */
@@ -580,5 +622,32 @@ footer .copyright {
         font-size: 5vw;
         line-height: 20px;
     }
+
+    footer {
+        margin-top: 0;
+    }
+
+    footer .logo{
+        width: 40%;
+        height: auto;
+    }
+    footer .footer-headings {
+        font-size: 5vw;
+    }
+
+    footer .body-text {
+        font-size: 5vw;
+        line-height: 30px;
+    }
+
+    footer .nav-links a {
+        font-size: 4vw;
+    }
+
+    footer .copyright {
+        font-size: 4vw;
+    }
+
+
 
 }
