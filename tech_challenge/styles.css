@@ -58,7 +58,7 @@ img {
     transition-duration: 0.3s;
 }
 
-.nav-links .hover-tran:hover {
+header .nav-links .hover-tran:hover {
     background-color: #EBF1F4;
 }
 
@@ -306,6 +306,10 @@ footer .nav-links ul {
     margin-right: 0;
     padding: 0;
     margin-bottom: 30px;
+}
+
+footer .nav-links .hover-tran:hover {
+    color: #4A455C;
 }
 
 footer .container {
