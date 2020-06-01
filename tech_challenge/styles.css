@@ -415,6 +415,10 @@ footer .copyright {
 
     .blog-box {
         width: 600px;
+        margin-bottom: 10px;
+    }
+    footer {
+        margin-top: 100px;
     }
 
 }
@@ -563,6 +567,18 @@ footer .copyright {
 
     #welcome-to-juno h2 {
         font-size: 6vw;
+    }
+
+    .blog-box .dates {
+        font-size: 5vw;
+    }
+    .blog-box .heading {
+        padding: 20px 0 20px 0;
+        font-size: 10vw;
+    }
+    .blog-box .body-text {
+        font-size: 5vw;
+        line-height: 20px;
     }
 
 }
